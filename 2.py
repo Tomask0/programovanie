@@ -18,12 +18,3 @@ sorted_file_array_bigfirst = sorted(file_array, reverse=True)
 
 print("max = ", max(file_array),"   min = ", min(file_array))
 print(sum(file_array)/len(file_array)) 
-
-
-
-class read_file:
-
-    file_line = []
-
-    def __init__(self) -> None:
-        pass
